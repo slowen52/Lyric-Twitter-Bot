@@ -1,0 +1,15 @@
+{
+  "name": "musicbottwit",
+  "version": "1.0.0",
+  "description": "\"music twitter bot\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "musicmatch": "^0.3.2",
+    "twit": "^2.2.11"
+  }
+}
