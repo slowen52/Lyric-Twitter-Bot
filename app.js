@@ -15,7 +15,7 @@ while (empty == ""){
     empty = getSnippet()
 }
 
-setInterval(getSnippet,60000)
+setInterval(getSnippet, 1000 * 60 * 60)
 function getSnippet(){
     //picks an artist from top 50 chart in US 
     music.chartArtists({page:1, page_size:50})
